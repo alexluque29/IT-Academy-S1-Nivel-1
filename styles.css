@@ -75,3 +75,31 @@
 .pie {
   background: #ffcd38;
 }
+
+@media all and (max-width: 800px) {
+  .section {
+    flex-direction: column;
+    background: #eafc49;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+  }
+  .section {
+    background: #f7eb85;
+  }
+  .aside{
+    background: #F66B0E;
+  }
+  .articulos {
+    flex-direction: column;
+    background: #70a3c4;
+  }
+  .navegacion{ 
+    flex-direction: column; 
+    background: #ccf3ee;
+  }
+  
+}
