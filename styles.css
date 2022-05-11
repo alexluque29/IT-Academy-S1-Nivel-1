@@ -76,14 +76,15 @@
   background: #ffcd38;
 }
 
-@media all and (max-width: 800px) {
+/* Media Query para tablets */
+@media screen and (max-width: 780px) {
   .section {
     flex-direction: column;
     background: #eafc49;
   }
 }
-
-@media all and (max-width: 600px) {
+/* Media Query para móviles */
+ @media screen and (max-width: 480px) {
   .menu {
     flex-direction: column;
   }
